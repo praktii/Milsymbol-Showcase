@@ -32,5 +32,5 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GH_token }}
-        publish_dir: dist/milsymbol-angular-showcase
+        publish_dir: dist/milsymbol-angular-showcase/browser
         enable_jekyll: true
