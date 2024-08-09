@@ -30,16 +30,16 @@ svgBase64: string | undefined;
 Now create a function that return a string. In this function we create a new Symbol as SVG and convert it to base64 string. This is done the following way:
 ```typescript
 createMilsymbol(sic: string): string {
-const symbol = new std2525c.Symbol(sic, {
-    size: 100,
-    fill: true,
-    frame: true,
-    colorMode: "Dark",
-});
-
-const svgBase = 'data:image/svg+xml;base64,' + btoa(symbol.asSVG());
-
-return svgBase;
+   const symbol = new std2525c.Symbol(sic, {
+       size: 100,
+       fill: true,
+       frame: true,
+       colorMode: "Dark",
+   });
+   
+   const svgBase = 'data:image/svg+xml;base64,' + btoa(symbol.asSVG());
+   
+   return svgBase;
 }
 ```
 
