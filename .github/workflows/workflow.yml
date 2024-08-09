@@ -14,16 +14,15 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v2
 
-    - name: Change dir
-      run: cd Milsymbol-Showcase/Milsymbol-Angular-Showcase
-
     - name: Adding Node.js
       uses: actions/setup-node@v2
       with:
         node-version: 16
 
-    - name: Install Dependencies
+    - name: Install deps
+      working-directory: ./Milsymbol-Angular-Showcase
       run: npm install
 
-    - name: Build Angular App
+    - name: run build
+      working-directory: ./Milsymbol-Angular-Showcase
       run: npm run build
