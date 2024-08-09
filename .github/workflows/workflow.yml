@@ -27,16 +27,12 @@ jobs:
       working-directory: ./Milsymbol-Angular-Showcase
       run: npm run build
 
-    # - name: deploy to gh-pages
-    #   working-directory: ./Milsymbol-Angular-Showcase
-    #   run: | 
-    #     npx angular-cli-ghpages --dir=dist/milsymbol-angular-showcase
-    #   env:
-    #     CI: true
-    #     GH_TOKEN: ${{ secrets.GH_TOKEN }}
+    - name: deploy to gh-pages
+      working-directory: ./Milsymbol-Angular-Showcase
+      run: | 
+        npx angular-cli-ghpages --dir=dist/milsymbol-angular-showcase
+      env:
+        CI: true
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
-    - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@4.1.1
-      with:
-        branch: gh-pages # The branch the action should deploy to.
-        folder: ./Milsymbol-Angular-Showcase/dist/milsymbol-angular-showcase # The folder the action should deploy.     
+   
