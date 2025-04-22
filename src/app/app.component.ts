@@ -3,11 +3,9 @@ import { RouterOutlet } from '@angular/router';
 import std2525c from 'milsymbol';
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.scss'
 })
 export class AppComponent {
   title = 'Milsymbol-Showcase';
