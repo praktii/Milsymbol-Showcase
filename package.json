@@ -17,7 +17,7 @@
     "@angular/compiler": "^19.2.17",
     "@angular/core": "^19.2.9",
     "@angular/forms": "^19.2.7",
-    "@angular/platform-browser": "^19.2.9",
+    "@angular/platform-browser": "^21.1.0",
     "@angular/platform-browser-dynamic": "^21.0.3",
     "@angular/router": "^19.2.7",
     "milsymbol": "^3.0.2",
