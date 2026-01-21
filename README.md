@@ -1,7 +1,7 @@
 # Milsymbol-Showcase
  
 This project should showcase the usage of the milsymbol library in an angular project.
-The original project can be found here [Milsymbol](https://github.com/spatialillusions/milsymbol, "milsymbol").
+The original project can be found here [Milsymbol](https://github.com/spatialillusions/milsymbol).
 
 ## Installation of Milsymbol
 ```
@@ -74,7 +74,7 @@ symbols do not have an entry in every code position, a dash (-) is used to fill 
 7. Positions 13 and 14, country code, identifies the country with which a symbol is associated. Country code identifiers are listed in ISO 3166-1.
 8. Position 15, order of battle, provides additional information about the role of a symbol in the operational environment. For example, a bomber that has nuclear weapons on board may be designated as strategic force related.
 
-For possible characters please see this [document for MIL-STD-2525C](https://worldwind.arc.nasa.gov/milstd2525c/Mil-STD-2525C.pdf, "MIL-STD2525C-Document") as example.
+For possible characters please see this [document for MIL-STD-2525C](https://worldwind.arc.nasa.gov/milstd2525c/Mil-STD-2525C.pdf) as example.
 
 As we now know how to create such a SIDC, we are able to give it to our previously created function:
 ```html
